@@ -1,0 +1,10 @@
+#!/bin/bash
+
+export YAVS_PROJ_DIR="$HOME/dev/rt/comm"
+export YAVS_CSCOPE_DIR="$HOME/.vim/cscope"
+export YAVS_CSCOPE_TARGET_DIR=$YAVS_PROJ_DIR
+export CSCOPE_DB=$YAVS_CSCOPE_TARGET_DIR/cscope.out
+export VISUAL=gvim
+export EDITOR=gvim
+
+alias csr="bash -x $HOME/.vim/cscope/rebuild.sh"
