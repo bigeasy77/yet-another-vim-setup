@@ -8,3 +8,4 @@ export VISUAL=gvim
 export EDITOR=gvim
 
 alias csr="bash -x $HOME/.vim/cscope/rebuild.sh"
+alias dev="cd $YAVS_PROJ_DIR"
