@@ -57,6 +57,6 @@ command! Lds source $YAVS_PROJ_DIR/.vimsession
 
 " on start """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 if argc() == 0
-    e *.cpp *.c
+"    e *.cpp *.c
 endif
 
